@@ -1,0 +1,225 @@
+[
+    {
+        "name": "Year",
+        "Action": {
+            "type": "none"
+        }
+    },
+    {
+        "name": "Month",
+        "Action": {
+            "type": "none"
+        }
+    },
+    {
+        "name": "Day",
+        "Action": {
+            "type": "none"
+        }
+    },
+    {
+        "name": "Latitude",
+        "Action": {
+            "type": "none"
+        }
+    },
+    {
+        "name": "Longitude",
+        "Action": {
+            "type": "none"
+        }
+    },
+    {
+        "name": "Elevation",
+        "Action": {
+            "type": "none"
+        }
+    },
+    {
+        "name": "Deaths",
+        "Action": {
+            "type": "Description",
+            "Mapping":{
+                "0": [-1, 0],
+                "1": [0, 50],
+                "2": [50, 100],
+                "3": [100, 1000],
+                "4": [1000, -1]
+            }
+        }
+    },
+    {
+        "name": "Missing",
+        "Action": {
+            "type": "Description",
+            "Mapping":{
+                "0": [-1, 0],
+                "1": [0, 50],
+                "2": [50, 100],
+                "3": [100, 1000],
+                "4": [1000, -1]
+            }
+        }
+    },
+    {
+        "name": "Injuries",
+        "Action": {
+            "type": "Description",
+            "Mapping":{
+                "0": [-1, 0],
+                "1": [0, 50],
+                "2": [50, 100],
+                "3": [100, 1000],
+                "4": [1000, -1]
+            }
+        }
+    },
+    {
+        "name": "Damage",
+        "Action":{
+            "type": "Description",
+            "Mapping":{
+                "0": [-1, 0],
+                "1": [0, 1],
+                "2": [1, 5],
+                "3": [5, 25],
+                "4": [25, -1]
+            }
+        }
+    },
+    {
+        "name": "Houses Destroyed",
+        "Action": {
+            "type": "Description",
+            "Mapping":{
+                "0": [-1, 0],
+                "1": [0, 50],
+                "2": [50, 100],
+                "3": [100, 1000],
+                "4": [1000, -1]
+            }
+        }
+    },
+        {
+        "name": "Total Deaths",
+        "Action": {
+            "type": "Description",
+            "Mapping":{
+                "0": [-1, 0],
+                "1": [0, 50],
+                "2": [50, 100],
+                "3": [100, 1000],
+                "4": [1000, -1]
+            }
+        }
+    },
+    {
+        "name": "Total Missing",
+        "Action": {
+            "type": "Description",
+            "Mapping":{
+                "0": [-1, 0],
+                "1": [0, 50],
+                "2": [50, 100],
+                "3": [100, 1000],
+                "4": [1000, -1]
+            }
+        }
+    },
+    {
+        "name": "Total Injuries",
+        "Action": {
+            "type": "Description",
+            "Mapping":{
+                "0": [-1, 0],
+                "1": [0, 50],
+                "2": [50, 100],
+                "3": [100, 1000],
+                "4": [1000, -1]
+            }
+        }
+    },
+    {
+        "name": "Total Damage",
+        "Action":{
+            "type": "Description",
+            "Mapping":{
+                "0": [-1, 0],
+                "1": [0, 1],
+                "2": [1, 5],
+                "3": [5, 25],
+                "4": [25, -1]
+            }
+        }
+    },
+    {
+        "name": "Total Houses Destroyed",
+        "Action": {
+            "type": "Description",
+            "Mapping":{
+                "0": [-1, 0],
+                "1": [0, 50],
+                "2": [50, 100],
+                "3": [100, 1000],
+                "4": [1000, -1]
+            }
+        }
+    },
+    {
+        "name": "Location",
+        "Action": {
+            "type" : "one-hot",
+            "categories": [
+                "Ecuador",
+                "Honshu-Japan",
+                "Iceland-S",
+                "Italy",
+                "Izu Is-Japan",
+                "Java",
+                "Kyushu-Japan",
+                "Lesser Sunda Is",
+                "Luzon-Philippines",
+                "New Guinea-NE of",
+                "Sangihe Is-Indonesia"
+            ]
+        }
+    },
+    {
+        "name": "Type",
+        "Action": {
+            "type" : "one-hot",
+            "categories": [
+                "Caldera",
+                "Complex volcano",
+                "Pyroclastic shield",
+                "Shield volcano",
+                "Stratovolcano",
+                "Subglacial volcano",
+                "Submarine volcano"
+            ]
+        }
+    },
+    {
+        "name": "Agent",
+        "Action": {
+            "type" : "multi-hot",
+            "categories": [
+                "S",
+                " m",
+                "A",
+                "E",
+                "F",
+                "G",
+                "I"	,
+                "L",
+                "M"	,
+                "P",
+                "S"	,
+                "T",
+                "W",
+                "m"
+            ]
+        }
+    }
+
+]

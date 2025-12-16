@@ -1,0 +1,6 @@
+wandb/*
+vulcanology/*
+.env
+*.pkl
+data/*
+__pycache__/
