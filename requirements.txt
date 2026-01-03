@@ -1,0 +1,5 @@
+numpy==2.3.5
+bentoml==1.4.30
+onnxruntime==1.23.2
+joblib==1.5.2
+scikit-learn==1.8.0

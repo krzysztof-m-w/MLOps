@@ -4,3 +4,7 @@ vulcanology/*
 *.pkl
 data/*
 __pycache__/
+.vscode/*
+
+model.onnx
+model.onnx.data
