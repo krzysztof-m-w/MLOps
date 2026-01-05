@@ -5,6 +5,7 @@ vulcanology/*
 data/*
 __pycache__/
 .vscode/*
+aws/*
 
 model.onnx
 model.onnx.data
